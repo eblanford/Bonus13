@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+  font-size: 22px;
+  text-align: center;
+  color: #444;
+  opacity: 0.9;
+  margin: 0px;
+  font-size: 112.5%;
+  font-family: "opensans", Helvetica, sans-serif;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: Gainsboro;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.header nav,
+.header .blank {
+  width: 20%
+}
+
+.header nav,
+.header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fa {
+  color: #1ea8b4;
+  margin: auto 7px;
+  border-radius: .2em;
+  border: thin solid #1ea8b4;
+  text-align: center;
+  width: 30px;
+  padding: 2px;
+  font-size: 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #444;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  margin: 120px auto auto auto;
+}
+
+.content {
+  margin: 120px auto 60px auto;
+  height: auto;
+}
+
+.intro {
+  padding-bottom: 30px;
+}
+
+.main {
+  justify-content: center;
+  display: flex;
+  height: 900px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://neweconomyinitiative.org/wp-content/uploads/2014/04/gcircus.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.background-tint {
+  background-color: rgba(128,128,128, 0.95);
+  background-blend-mode: multiply;
+}
+
+img {
+  border-radius: .2em;
+}
+
+.container {
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  height: auto;
+  background-color: rgba(220,220,220,0.8);
+  border-radius: .2em;
+}
+
+.button{
+  border: thin solid #1ea8b4;
+  background-color: rgba(220,220,220,0.8);
+  border-radius: .2em;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.button:hover,
+.fa:hover {
+  color: rgb(220,220,220);
+  background-color: rgba(12,66,71,0.8);
+}
+
+h2, h1, h4 {
+  font-family: "brandon", "Arial Black", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 2.2rem;
+  padding: 20px 0px;
+  color: #1ea8b4;
+  font-weight: bold;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+.footer {
+  padding: 30px;
+  margin: 0px;
+  height: 200px;
+  background-color: Gainsboro;
+}
+
+.footer a,
+.content a {
+  text-decoration: none;
+  color: #444;
+}
+
+.footer .blank {
+  padding-top: 20px;
+}
